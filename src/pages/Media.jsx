@@ -80,7 +80,7 @@ const Media = () => {
                           src="https://kalekyemumo.com/assets/images/live_n_uncut.png" 
                           alt="Video Thumbnail" 
                           className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity"
-                        />
+                         loading="lazy" decoding="async" />
                         <div className="z-10 h-10 w-10 bg-gold/80 rounded-full flex items-center justify-center text-charcoal scale-0 group-hover:scale-100 transition-transform duration-300 shadow-xl">
                           <Play size={20} className="fill-charcoal" />
                         </div>
@@ -110,7 +110,7 @@ const Media = () => {
                     src="https://kalekyemumo.com/assets/images/img12.jpg" 
                     alt="My Baby Single" 
                     className="w-full h-auto rounded-[3rem]"
-                  />
+                   loading="lazy" decoding="async" />
                   {/* Floating Vinyl Decor */}
                   <motion.div 
                     animate={{ rotate: 360 }}
@@ -199,7 +199,7 @@ const Media = () => {
                     className="glass-card group cursor-pointer border-white/5 hover:border-coral/20 hover:bg-coral/5 p-0 overflow-hidden"
                   >
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src={post.img} alt={post.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" />
+                      <img src={post.img} alt={post.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"  loading="lazy" decoding="async" />
                     </div>
                     <div className="p-8 space-y-4">
                       <p className="text-coral text-xs font-bold uppercase tracking-widest">{post.date}</p>

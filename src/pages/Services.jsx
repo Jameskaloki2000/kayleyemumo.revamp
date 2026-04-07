@@ -72,7 +72,7 @@ const Services = () => {
                   <ArrowUpRight size={20} className="group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <div className="flex -space-x-3 items-center grayscale hover:grayscale-0 transition-all opacity-40 hover:opacity-100">
-                  <img src="https://kalekyemumo.com/assets/images/logo.png" className="h-8 w-auto invert" alt="Client 1" />
+                  <img src="https://kalekyemumo.com/assets/images/logo.png" className="h-8 w-auto invert" alt="Client 1"  loading="lazy" decoding="async" />
                   <span className="pl-6 text-xs text-white/40 font-medium">Trusted by Fortune 500 Brands</span>
                 </div>
               </div>
@@ -84,7 +84,7 @@ const Services = () => {
                   src="https://kalekyemumo.com/assets/images/banner1.jpg" 
                   alt="Kalekye Hosting" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div className="absolute -bottom-6 -right-6 glass p-8 rounded-3xl border-white/10 shadow-xl max-w-xs animate-entrance">
                 <div className="flex gap-1 mb-3">
@@ -111,7 +111,7 @@ const Services = () => {
                   src="https://kalekyemumo.com/assets/images/img1.png" 
                   alt="Life Coaching" 
                   className="w-full h-auto rounded-[2.5rem]"
-                />
+                 loading="lazy" decoding="async" />
               </div>
             </div>
 

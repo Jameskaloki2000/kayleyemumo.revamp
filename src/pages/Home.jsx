@@ -74,7 +74,7 @@ const Home = () => {
                   src="https://kalekyemumo.com/assets/images/banner1.jpg" 
                   alt="Kalekye Mumo Hero" 
                   className="w-full h-auto rounded-[2.2rem] grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105"
-                />
+                 loading="eager" decoding="async" fetchpriority="high" />
               </div>
               
               {/* Floating Stat Card */}
@@ -170,7 +170,7 @@ const Home = () => {
                   src="https://kalekyemumo.com/assets/images/img1.png" 
                   alt="Kalekye Mumo Story" 
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-                />
+                 loading="lazy" decoding="async" />
               </div>
               <div className="absolute -top-6 -right-6 h-32 w-32 border-t-2 border-r-2 border-gold rounded-tr-3xl" />
               <div className="absolute -bottom-6 -left-6 h-32 w-32 border-b-2 border-l-2 border-coral rounded-bl-3xl opacity-50" />

@@ -15,7 +15,7 @@ const Footer = () => {
               src="https://kalekyemumo.com/assets/images/logo_white.png" 
               alt="Kalekye Mumo" 
               className="h-10 w-auto"
-            />
+             loading="lazy" decoding="async" />
             <p className="text-white/60 leading-relaxed text-sm">
               Influencing perception, one story at a time. Veteran media personality, 
               corporate emcee, and confidence life coach.

@@ -39,7 +39,7 @@ const About = () => {
             src="https://kalekyemumo.com/assets/images/img1.jpg" 
             alt="About Kalekye Mumo" 
             className="w-full h-full object-cover scale-105"
-          />
+           loading="eager" decoding="async" fetchpriority="high" />
           <div className="absolute inset-0 bg-charcoal/70 backdrop-blur-[2px]" />
         </div>
         
@@ -85,7 +85,7 @@ const About = () => {
                 src="https://kalekyemumo.com/assets/images/img17.jpg" 
                 alt="Kalekye Mumo Profile" 
                 className="w-full h-full object-cover"
-              />
+               loading="lazy" decoding="async" />
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@ const Navbar = () => {
               src="https://kalekyemumo.com/assets/images/logo_white.png" 
               alt="Kalekye Mumo" 
               className="h-12 w-auto"
-            />
+             loading="lazy" decoding="async" />
             <span className="text-xl font-heading font-bold tracking-tight text-white hidden sm:block">
               Kalekye Mumo
             </span>
