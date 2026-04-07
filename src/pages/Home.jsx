@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Mic, Heart, Play, ChevronRight, ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Testimonials from '../components/ui/Testimonials';
 
 const Home = () => {
   const containerVariants = {
@@ -192,6 +193,34 @@ const Home = () => {
                 <ChevronRight size={18} />
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Video Testimonials */}
+      <Testimonials />
+
+      {/* Final Conversion CTA */}
+      <section className="py-24 relative overflow-hidden bg-gold">
+        {/* Background Accents */}
+        <div className="absolute top-0 right-0 w-[40rem] h-[40rem] bg-charcoal/10 rounded-full blur-3xl translate-x-1/2 -translate-y-1/4" />
+        <div className="absolute bottom-0 left-0 w-[30rem] h-[30rem] bg-white/20 rounded-full blur-3xl -translate-x-1/3 translate-y-1/3" />
+        
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+          <h2 className="text-4xl md:text-6xl font-heading font-bold text-charcoal leading-tight mb-6">
+            Ready to Amplify Your Presence?
+          </h2>
+          <p className="text-charcoal/80 text-xl md:text-2xl mb-10">
+            Let's build your confidence, shape your brand, and turn your voice into your greatest asset. Book your discovery call today.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link to="/contact" className="py-4 px-10 rounded-xl bg-charcoal text-white font-semibold flex items-center justify-center gap-2 hover:bg-black hover:scale-105 transition-all shadow-xl hover:shadow-2xl">
+              Book a Call Now 
+              <ArrowUpRight size={20} />
+            </Link>
+            <Link to="/services" className="py-4 px-10 rounded-xl bg-transparent border-2 border-charcoal/20 text-charcoal font-semibold hover:border-charcoal hover:bg-charcoal/5 transition-colors">
+              Explore Programs
+            </Link>
           </div>
         </div>
       </section>

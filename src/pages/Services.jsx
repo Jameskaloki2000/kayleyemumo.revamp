@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Mic, Heart, Star, CheckCircle, ArrowRight, ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Testimonials from '../components/ui/Testimonials';
 
 const Services = () => {
   const emceeSkills = [
@@ -153,6 +154,9 @@ const Services = () => {
           </div>
         </div>
       </section>
+
+      {/* Video Testimonials */}
+      <Testimonials />
 
       {/* CTA Final */}
       <section className="py-24 max-w-5xl mx-auto px-4 text-center">
