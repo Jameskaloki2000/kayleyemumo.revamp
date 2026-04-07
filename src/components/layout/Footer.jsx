@@ -62,6 +62,10 @@ const Footer = () => {
                 <span>info@kalekyemumo.com</span>
               </li>
               <li className="flex items-start space-x-3 text-white/60 text-sm">
+                <Phone className="text-gold shrink-0" size={18} />
+                <span>+254 707 233224</span>
+              </li>
+              <li className="flex items-start space-x-3 text-white/60 text-sm">
                 <Heart className="text-gold shrink-0" size={18} />
                 <span>Based in Nairobi, Kenya</span>
               </li>

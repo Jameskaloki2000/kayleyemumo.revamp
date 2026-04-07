@@ -1,10 +1,10 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Forum&display=swap');
 
 @theme {
-  --color-gold: #D4AF37;
-  --color-gold-light: #F4CF67;
-  --color-gold-dark: #B48F17;
+  --color-gold: #9E7758;
+  --color-gold-light: #C49870;
+  --color-gold-dark: #7A5B42;
   
   --color-coral: #FF7F50;
   --color-coral-light: #FF9F80;
@@ -14,7 +14,7 @@
   --color-charcoal-light: #1E1E1E;
   --color-charcoal-dark: #0A0A0A;
 
-  --font-heading: "Playfair Display", serif;
+  --font-heading: "Forum", serif;
   --font-sans: "Inter", sans-serif;
 }
 

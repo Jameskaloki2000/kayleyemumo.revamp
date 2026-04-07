@@ -54,7 +54,7 @@ const Services = () => {
               <p className="text-white/60 text-lg leading-relaxed">
                 Hosting an event isn't just about reading a script; it's about managing energy, 
                 maintaining tempo, and ensuring your brand's message lands with impact. 
-                I specialize in high-stakes corporate hosting where professionalism meets personality.
+                Command the stage as a professional host or moderator with charisma and authority.
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -122,18 +122,22 @@ const Services = () => {
                 </div>
                 <span className="text-xl font-heading font-semibold">The Coach</span>
               </div>
-              <h2 className="text-4xl md:text-5xl font-heading font-bold text-white">Confidence Is Your Greatest Asset.</h2>
+              <h2 className="text-4xl md:text-5xl font-heading font-bold text-white">Own Your Mic Programs.</h2>
               <p className="text-white/60 text-lg leading-relaxed italic border-l-4 border-coral/30 pl-6">
-                "To be alive and present to your circumstance unedited and unfiltered is one of the most relatable ways to connect with others."
+                "Master the Art of Communication. Empowering individuals to host, speak, and deliver with confidence."
               </p>
               <p className="text-white/70 text-lg leading-relaxed">
-                As a certified Confidence Life Coach, I help corporate leaders, entrepreneurs, 
-                and individuals move past their psoriasis, weight journeys, and self-doubt 
-                to embrace their true destiny.
+                Whether you want to command a stage, build clarity in corporate presentations, or deliver the perfect 
+                voice over for documentaries and commercials, the Own Your Mic programs are designed to transform you.
               </p>
-
+              
               <div className="space-y-4">
-                {coachingFeatures.map(f => (
+                {[
+                  'The Host Program (Moderation & Emceeing)',
+                  'Public Speaking Masterclass',
+                  'Voice Over Techniques & Scripting',
+                  'Confidence & Personal Brand Strategy',
+                ].map(f => (
                   <div key={f} className="flex items-center gap-4 text-white/80 group">
                     <div className="h-2 w-2 rounded-full bg-coral group-hover:scale-150 transition-transform" />
                     <span className="font-medium">{f}</span>

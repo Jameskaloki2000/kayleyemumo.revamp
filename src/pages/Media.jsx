@@ -6,7 +6,7 @@ const Media = () => {
   const [activeTab, setActiveTab] = useState('live');
 
   const tabs = [
-    { id: 'live', label: 'Live & Uncut', icon: <Play size={18} /> },
+    { id: 'podcast', label: 'Podcast', icon: <Play size={18} /> },
     { id: 'music', label: 'Music', icon: <Music size={18} /> },
     { id: 'health', label: 'Healthy Wealthy Life', icon: <Heart size={18} /> },
   ];
@@ -54,9 +54,9 @@ const Media = () => {
       {/* Media Content Area */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-32">
         <AnimatePresence mode="wait">
-          {activeTab === 'live' && (
+          {activeTab === 'podcast' && (
             <motion.div
-              key="live"
+              key="podcast"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
@@ -65,10 +65,14 @@ const Media = () => {
               {['Season 3 (New)', 'Season 2', 'Season 1'].map((season, sIdx) => (
                 <div key={season} className="space-y-6">
                   <div className="flex items-center justify-between">
-                    <h3 className="text-2xl font-heading font-bold text-white">{season}</h3>
-                    <button className="text-white/40 text-sm hover:text-gold transition-colors flex items-center gap-2">
-                      View All <ChevronRight size={14} />
-                    </button>
+                    <div className="space-y-1">
+                      <h3 className="text-2xl font-heading font-bold text-white">Conversations with Kalekye</h3>
+                      <p className="text-gold text-sm tracking-wide">Africa's Best Relationship Podcast 2024</p>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-white/80 font-bold">10K+ Listeners</p>
+                      <p className="text-white/40 text-sm flex items-center justify-end gap-1"><Heart size={12} className="text-coral" /> 4.9 Rating</p>
+                    </div>
                   </div>
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
                     {[1, 2, 3, 4, 5].map((item) => (

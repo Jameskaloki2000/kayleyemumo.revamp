@@ -8,9 +8,9 @@ export default {
     extend: {
       colors: {
         gold: {
-          DEFAULT: '#D4AF37',
-          light: '#F4CF67',
-          dark: '#B48F17',
+          DEFAULT: '#9E7758',
+          light: '#C49870',
+          dark: '#7A5B42',
         },
         coral: {
           DEFAULT: '#FF7F50',
@@ -24,7 +24,7 @@ export default {
         }
       },
       fontFamily: {
-        heading: ['Playfair Display', 'serif'],
+        heading: ['Forum', 'serif'],
         sans: ['Inter', 'sans-serif'],
       },
     },

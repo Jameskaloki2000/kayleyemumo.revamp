@@ -25,7 +25,7 @@ const About = () => {
     {
       year: 'Present',
       title: 'The Destiny Phase',
-      description: 'Certified Confidence Life Coach, creating safe spaces for people to discover their true power.',
+      description: 'Creator of Conversations with Kalekye, winning Africa\'s Best Relationship Podcast 2024.',
       icon: <Heart size={24} className="text-gold" />,
     },
   ];
@@ -57,7 +57,7 @@ const About = () => {
             transition={{ delay: 0.1 }}
             className="text-5xl md:text-8xl font-heading font-bold text-white tracking-tight"
           >
-            MY <span className="gold-gradient italic">STORY.</span>
+            A Voice That <span className="gold-gradient italic">Inspires.</span>
           </motion.h1>
         </div>
       </section>
@@ -66,16 +66,16 @@ const About = () => {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div className="space-y-8">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold leading-tight">15+ Years Of <br /> Authentic Connection.</h2>
+            <h2 className="text-4xl md:text-5xl font-heading font-bold leading-tight">A Mentor That <br /> Transforms.</h2>
             <p className="text-white/60 leading-relaxed text-lg">
-              For over a decade, I was the voice that woke you up, the presence that kept you 
-              company through the rush hour, and the mediator of countless couples' dilemmas.
+              Empowering Voices, Creating Impact, Transforming Lives. For over a decade, I've been cultivating 
+              conversations that matter across mainstream radio, television, and now digital platforms.
             </p>
             <p className="text-white/70 leading-relaxed">
-              My journey started in the bustling studios of mainstream radio, but it was paved 
-              with a singular purpose: connecting with people's truth. Every award show I emceed, 
-              every brand I represented, and every story I told was about influencing how 
-              we perceive ourselves and the world around us.
+              My journey started in the bustling studios of mainstream media, but it was always paved 
+              with a singular purpose: helping others find their true voice. Every award show I emcee, 
+              every brand I represent, and every story I tell is about influencing how we perceive 
+              ourselves and the world.
             </p>
           </div>
           

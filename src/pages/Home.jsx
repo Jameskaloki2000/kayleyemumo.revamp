@@ -38,14 +38,13 @@ const Home = () => {
               </motion.div>
               
               <motion.h1 variants={itemVariants} className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold text-white leading-tight">
-                INFLUENCING <br />
-                <span className="gold-gradient italic">PERCEPTION,</span> <br />
-                ONE STORY <br />
-                AT A TIME.
+                UNLEASH <br />
+                <span className="gold-gradient italic">THE POWER</span> <br />
+                OF YOUR VOICE.
               </motion.h1>
 
               <motion.p variants={itemVariants} className="text-lg md:text-xl text-white/70 max-w-lg leading-relaxed">
-                Veteran Media Personality, Corporate Emcee, and Certified Confidence Life Coach helping you lead an authentic and powerful life.
+                Award-Winning Podcaster | Renowned Host | Voiceover Artist. Creator of Own Your Mic Program. Empowering Voices, Transforming Lives.
               </motion.p>
 
               <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4">
@@ -123,21 +122,21 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             { 
-              title: 'Corporate Emcee', 
+              title: 'The Host Program', 
               icon: <Mic className="text-gold" />, 
-              desc: 'Premium hosting for high-stakes corporate launches, awards, and galas.',
+              desc: 'Command the stage as a professional host or moderator with charisma and authority.',
               link: '/services'
             },
             { 
-              title: 'Life Coaching', 
+              title: 'Public Speaking', 
               icon: <Heart className="text-coral" />, 
-              desc: 'Transformative confidence building for individuals ready for their true destiny.',
+              desc: 'Build confidence, clarity, and impact in speeches and corporate presentations.',
               link: '/services'
             },
             { 
-              title: 'Digital Media', 
+              title: 'Voice Over Services', 
               icon: <Play className="text-white" />, 
-              desc: 'Strategic brand storytelling and high-impact digital platform presence.',
+              desc: 'Professional VO for documentaries, commercials, and infomercials with custom scripts.',
               link: '/media'
             }
           ].map((service, i) => (
@@ -177,16 +176,16 @@ const Home = () => {
             </div>
 
             <div className="space-y-8 order-1 md:order-2">
-              <span className="text-gold text-sm font-medium tracking-[0.2em] uppercase italic">The Journey</span>
-              <h2 className="text-4xl md:text-6xl font-heading font-bold leading-tight">Creating Safe Spaces For <span className="gold-gradient italic">Your Voice.</span></h2>
+              <span className="text-gold text-sm font-medium tracking-[0.2em] uppercase italic">The Queen of Media</span>
+              <h2 className="text-4xl md:text-6xl font-heading font-bold leading-tight">A Mentor That <span className="gold-gradient italic">Transforms.</span></h2>
               <p className="text-white/70 leading-relaxed text-lg">
-                For over 15 years, I graced the airwaves of mainstream radio and television in Kenya. 
-                What started as a media career evolved into a profound calling: creating safe spaces 
-                where voices are heard, unedited and unfiltered.
+                With over 15 years in Kenyan mainstream media, I've earned the title 'Queen of Media'. 
+                As a celebrated event host, panel moderator, and voiceover artist, I bring professionalism 
+                and charisma to every stage.
               </p>
               <p className="text-white/60 leading-relaxed">
                 Whether on screen, behind a microphone, or in a one-on-one coaching session, my mission 
-                remains the same—to connect, to inspire, and to influence perception through truth.
+                remains the same—Empowering Voices, Creating Impact, Transforming Lives.
               </p>
               <Link to="/about" className="btn-primary inline-flex items-center gap-2 mt-4">
                 Read My Story
