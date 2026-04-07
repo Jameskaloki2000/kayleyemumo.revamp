@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@theme {
+  --color-gold: #D4AF37;
+  --color-gold-light: #F4CF67;
+  --color-gold-dark: #B48F17;
+  
+  --color-coral: #FF7F50;
+  --color-coral-light: #FF9F80;
+  --color-coral-dark: #DF5F30;
+  
+  --color-charcoal: #121212;
+  --color-charcoal-light: #1E1E1E;
+  --color-charcoal-dark: #0A0A0A;
+
+  --font-heading: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-charcoal text-white font-sans antialiased;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-charcoal/40 backdrop-blur-md border border-white/10;
+  }
+  
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-6 transition-all duration-300;
+  }
+  
+  .gold-gradient {
+    @apply bg-gradient-to-r from-gold via-gold-light to-gold-dark text-transparent bg-clip-text;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-gold text-charcoal font-semibold rounded-full hover:bg-gold-light transition-colors duration-300 shadow-lg shadow-gold/20;
+  }
+  
+  .btn-outline {
+    @apply px-6 py-3 border border-gold text-gold font-semibold rounded-full hover:bg-gold/10 transition-colors duration-300;
+  }
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-entrance {
+  animation: fadeIn 0.8s ease-out forwards;
+}

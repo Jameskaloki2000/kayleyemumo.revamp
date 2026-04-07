@@ -1,0 +1,131 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/jamesmalla/kalekyemumo.site/.npmrc
+5 silly config load:file:/Users/jamesmalla/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install react-router-dom framer-motion lucide-react clsx tailwind-merge font-source-serif-pro font-inter
+8 verbose argv "install" "react-router-dom" "framer-motion" "lucide-react" "clsx" "tailwind-merge" "font-source-serif-pro" "font-inter"
+9 verbose logfile logs-max:10 dir:/Users/jamesmalla/kalekyemumo.site/.npm_cache/_logs/2026-04-06T20_35_50_213Z-
+10 verbose logfile /Users/jamesmalla/kalekyemumo.site/.npm_cache/_logs/2026-04-06T20_35_50_213Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest react-router-dom@*
+15 silly packumentCache full:https://registry.npmjs.org/react-router-dom cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/react-router-dom 762ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/react-router-dom set size:undefined disposed:false
+18 silly fetch manifest react@^19.2.4
+19 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/react 113ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/react set size:6585005 disposed:false
+22 silly fetch manifest react-dom@^19.2.4
+23 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/react-dom 109ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8756153 disposed:false
+26 silly fetch manifest framer-motion@*
+27 silly packumentCache full:https://registry.npmjs.org/framer-motion cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/framer-motion 222ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/framer-motion set size:undefined disposed:false
+30 silly fetch manifest @emotion/is-prop-valid@*
+31 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/@emotion%2fis-prop-valid 106ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid set size:undefined disposed:false
+34 silly fetch manifest lucide-react@*
+35 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/lucide-react 125ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/lucide-react set size:undefined disposed:false
+38 silly fetch manifest clsx@*
+39 silly packumentCache full:https://registry.npmjs.org/clsx cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/clsx 79ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/clsx set size:undefined disposed:false
+42 silly fetch manifest tailwind-merge@*
+43 silly packumentCache full:https://registry.npmjs.org/tailwind-merge cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/tailwind-merge 108ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/tailwind-merge set size:undefined disposed:false
+46 silly fetch manifest font-source-serif-pro@*
+47 silly packumentCache full:https://registry.npmjs.org/font-source-serif-pro cache-miss
+48 http fetch GET 404 https://registry.npmjs.org/font-source-serif-pro 463ms (cache skip)
+49 silly fetch manifest font-inter@*
+50 silly packumentCache full:https://registry.npmjs.org/font-inter cache-miss
+51 http fetch GET 404 https://registry.npmjs.org/font-inter 452ms (cache skip)
+52 silly placeDep ROOT clsx@2.1.1 OK for: tmp-vite@0.0.0 want: *
+53 silly placeDep ROOT font-inter@ OK for: tmp-vite@0.0.0 want: *
+54 silly placeDep ROOT font-source-serif-pro@ OK for: tmp-vite@0.0.0 want: *
+55 silly placeDep ROOT framer-motion@12.38.0 OK for: tmp-vite@0.0.0 want: *
+56 silly placeDep ROOT lucide-react@1.7.0 OK for: tmp-vite@0.0.0 want: *
+57 silly placeDep ROOT react-router-dom@7.14.0 OK for: tmp-vite@0.0.0 want: *
+58 silly placeDep ROOT tailwind-merge@3.5.0 OK for: tmp-vite@0.0.0 want: *
+59 silly fetch manifest motion-dom@^12.38.0
+60 silly packumentCache full:https://registry.npmjs.org/motion-dom cache-miss
+61 silly fetch manifest motion-utils@^12.36.0
+62 silly packumentCache full:https://registry.npmjs.org/motion-utils cache-miss
+63 silly fetch manifest react-router@7.14.0
+64 silly packumentCache full:https://registry.npmjs.org/react-router cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/motion-dom 421ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/motion-dom set size:undefined disposed:false
+67 http fetch GET 200 https://registry.npmjs.org/react-router 461ms (cache miss)
+68 silly packumentCache full:https://registry.npmjs.org/react-router set size:undefined disposed:false
+69 http fetch GET 200 https://registry.npmjs.org/motion-utils 596ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/motion-utils set size:undefined disposed:false
+71 silly fetch manifest @emnapi/core@^1.7.1
+72 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fcore 99ms (cache revalidated)
+74 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore set size:103589 disposed:false
+75 silly fetch manifest @emnapi/runtime@^1.7.1
+76 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fruntime 214ms (cache revalidated)
+78 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime set size:105954 disposed:false
+79 silly placeDep ROOT @emnapi/core@1.9.2 OK for: @napi-rs/wasm-runtime@1.1.2 want: ^1.7.1
+80 silly placeDep ROOT @emnapi/runtime@1.9.2 OK for: @napi-rs/wasm-runtime@1.1.2 want: ^1.7.1
+81 silly placeDep ROOT motion-dom@12.38.0 OK for: framer-motion@12.38.0 want: ^12.38.0
+82 silly placeDep ROOT motion-utils@12.36.0 OK for: framer-motion@12.38.0 want: ^12.36.0
+83 silly fetch manifest react@>=18
+84 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+85 http cache https://registry.npmjs.org/react 13ms (cache hit)
+86 silly packumentCache full:https://registry.npmjs.org/react set size:6585005 disposed:false
+87 silly fetch manifest react-dom@>=18
+88 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+89 http cache https://registry.npmjs.org/react-dom 14ms (cache hit)
+90 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8756153 disposed:false
+91 silly placeDep ROOT react-router@7.14.0 OK for: react-router-dom@7.14.0 want: 7.14.0
+92 silly fetch manifest cookie@^1.0.1
+93 silly packumentCache full:https://registry.npmjs.org/cookie cache-miss
+94 silly fetch manifest set-cookie-parser@^2.6.0
+95 silly packumentCache full:https://registry.npmjs.org/set-cookie-parser cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/cookie 83ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/cookie set size:undefined disposed:false
+98 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser 88ms (cache miss)
+99 silly packumentCache full:https://registry.npmjs.org/set-cookie-parser set size:undefined disposed:false
+100 silly placeDep ROOT cookie@1.1.1 OK for: react-router@7.14.0 want: ^1.0.1
+101 silly placeDep ROOT set-cookie-parser@2.7.2 OK for: react-router@7.14.0 want: ^2.6.0
+102 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/font-inter - Not found
+102 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js:103:15
+102 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+102 verbose stack     at async RegistryFetcher.packument (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:90:19)
+102 verbose stack     at async RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:128:23)
+102 verbose stack     at async #fetchManifest (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1227:20)
+102 verbose stack     at async #nodeFromEdge (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1065:19)
+102 verbose stack     at async #buildDepStep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:929:11)
+102 verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:182:7)
+102 verbose stack     at async Promise.all (index 1)
+102 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:114:5)
+103 verbose statusCode 404
+104 verbose pkgid font-inter@*
+105 error code E404
+106 error 404 Not Found - GET https://registry.npmjs.org/font-inter - Not found
+107 error 404
+108 error 404  The requested resource 'font-inter@*' could not be found or you do not have permission to access it.
+109 error 404
+110 error 404 Note that you can also install from a
+111 error 404 tarball, folder, http url, or git url.
+112 silly unfinished npm timer reify 1775507750570
+113 silly unfinished npm timer reify:loadTrees 1775507750572
+114 verbose cwd /Users/jamesmalla/kalekyemumo.site
+115 verbose os Darwin 25.2.0
+116 verbose node v24.13.0
+117 verbose npm  v11.6.2
+118 verbose exit 1
+119 verbose code 1
+120 error A complete log of this run can be found in: /Users/jamesmalla/kalekyemumo.site/.npm_cache/_logs/2026-04-06T20_35_50_213Z-debug-0.log
